@@ -88,6 +88,7 @@ else:
 the = "supercalifragilisticexpialidocious"
 print(len(the))
 
+print(the.count('i'))
 # numberofi = 0
 # for "i" in the:
 #     numberofi = numberofi + 1
