@@ -51,8 +51,11 @@ print(force.lower())
 # Given the list 
 motto = ["Make", "haste", "slowly."]
 print(motto[0])
+mottothesequel = ' '.join(motto)
+print(mottothesequel)
 # a. Convert the list into a single string.
 # b. Now, split the string at every occurrence of the letter 'a'.
+print(mottothesequel.split('a'))
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
