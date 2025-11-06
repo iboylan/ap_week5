@@ -1,15 +1,23 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
-# Given the string magic = 'abracadabra',
+# Given the string 
+magic = "abracadabra"
 # a. Retrieve the 5th character.
+print(magic[4])
 # b. Retrieve the second to last character.
+print(magic[-2])
 # c. Find the first occurrence of the letter 'c'.
-
+print(magic.index('c'))
+print(magic.index('r'))
+print(magic.rindex('a'))
+# r -> reverse. Rindex
 # Advanced Slicing:
-# Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+# Given the string 
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
 # b. Extract every second letter starting from 'a' to 'm'.
 # c. Reverse the entire string using slicing.
+print(alphabet[::-1])
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
@@ -26,7 +34,9 @@
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
 
 # String Joining and Splitting:
-# Given the list motto = ["Make", "haste", "slowly."],
+# Given the list 
+motto = ["Make", "haste", "slowly."]
+print(motto[0])
 # a. Convert the list into a single string.
 # b. Now, split the string at every occurrence of the letter 'a'.
 
@@ -38,6 +48,8 @@
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+lalala = "Iteration"
+print(lalala * 7)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
@@ -45,3 +57,5 @@
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+the = "supercalifragilisticexpialidocious"
+print(len(the))
