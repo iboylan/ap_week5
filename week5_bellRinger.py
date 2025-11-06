@@ -59,8 +59,14 @@ print(mottothesequel.split('a'))
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
+sentence = "Life is what happens when you are busy making other plans."
+print(sentence)
 # a. Replace "busy" with "distracted".
+sentence2 = sentence.replace("busy","distracted")
+print(sentence2)
 # b. Replace "plans" with "mistakes".
+sentence3 = sentence2.replace('plans','mistakes')
+print(sentence3)
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
@@ -70,9 +76,20 @@ print(lalala * 7)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+thequote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+if "freedom" in thequote:
+    print("Ok yay")
+else:
+    print("boooo")
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
 the = "supercalifragilisticexpialidocious"
 print(len(the))
+
+# numberofi = 0
+# for "i" in the:
+#     numberofi = numberofi + 1
+
+# print(numberofi)
