@@ -36,12 +36,16 @@ print(quote[quote.index('John'):quote.rindex('"')])
 info = "Python is fun. Fun is good. Good is subjective."
 # a. Extract the word 'subjective' without knowing its exact position.
 print(info[info.rindex('s'):info.rindex('e')+1])
-# b. Extract every third word.
+# b. Extract every third letter.
+print(info[::3])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
-
+words = info.split()
+print(' '.join(words[::-1]))
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
+force = "MAY THE FORCE BE WITH YOU"
+print(force.lower())
 
 # String Joining and Splitting:
 # Given the list 
